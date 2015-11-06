@@ -1,0 +1,4 @@
+#!/bin/bash
+# external IP
+ip=$(curl --silent ifconfig.co)
+printf " %s" $ip
