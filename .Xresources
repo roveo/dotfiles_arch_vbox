@@ -49,7 +49,7 @@ URxvt*scrollBar:			false
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:				xft:DejaVu Sans Mono:size=10
+URxvt*font:				xft:DejaVu Sans Mono:size=10:style=Regular
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname
@@ -71,7 +71,7 @@ URxvt*depth:                            32
 ! URxvt*internalBorder:                 number
 ! URxvt*borderLess:                     boolean
 ! URxvt*lineSpace:                      number
-! URxvt*letterSpace:                    number
+! URxvt*letterSpace:                    -1
 ! URxvt*skipBuiltinGlyphs:              boolean
 ! URxvt*pointerBlankDelay:              number
 ! URxvt*backspacekey:                   string
