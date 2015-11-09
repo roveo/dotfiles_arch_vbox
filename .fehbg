@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-scale '/home/roveo/.wallpapers/galaxy_4-wallpaper-1440x900.jpg' 
