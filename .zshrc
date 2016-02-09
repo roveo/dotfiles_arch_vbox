@@ -55,6 +55,7 @@ plugins=(git)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PYTHONPATH=$HOME/pylibs
+export VERTICAINI=$HOME/.vertica.ini
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
