@@ -5,5 +5,5 @@ if [ $BLOCK_BUTTON = 1 ]; then
 fi
 
 ip=$(curl --silent --socks5 localhost:9050 ifconfig.co)
-country=$(curl --silent --socks5 localhost:9050 ifconfig.co/x-ifconfig-country)
+country=$(curl --silent --socks5 localhost:9050 ifconfig.co/country)
 printf " %s (%s)\n" $ip "$country"
