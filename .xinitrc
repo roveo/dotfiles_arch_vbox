@@ -36,5 +36,6 @@ fi
 xrdb -merge /home/roveo/.Xresources
 
 sh ~/.fehbg &
+unclutter &
 exec i3
 
