@@ -92,5 +92,6 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+source ~/.pass
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
