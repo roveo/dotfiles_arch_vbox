@@ -168,7 +168,13 @@ bar {
 	modifier $mod
     status_command i3blocks
 
+    separator_symbol "|"
     colors {
+        background #002b36
+        focused_workspace  #002b36 #002b36 #ffffff
+        active_workspace   #002b36 #002b36 #2aa198
+        inactive_workspace #002b36 #002b36 #586e75
+        urgent_workspace   #002b36 #002b36 #dc322f
     }
     strip_workspace_numbers yes
 }
