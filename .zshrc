@@ -85,6 +85,7 @@ export VERTICAINI=$HOME/.vertica.ini
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias xc="xclip -selection clipboard"
 alias v="nvim"
+alias scr="escrotum -sC"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then

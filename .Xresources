@@ -192,7 +192,7 @@ URxvt*depth:                            32
 *color15:               S_base03
 
 
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,selection,matcher
 URxvt.url-launcher: /usr/bin/google-chrome-stable
 URxvt.matcher.button: 1
 URxvt*termName: rxvt-unicode

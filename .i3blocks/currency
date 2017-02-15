@@ -2,4 +2,4 @@ usd=$(python ~/.i3blocks/currency_rates.py usd rub)
 eur=$(python ~/.i3blocks/currency_rates.py eur rub)
 echo $usd >> ~/.i3blocks/usd_history.log
 sp=$(tail -n10 ~/.i3blocks/usd_history.log | awk '{ print $0*100 }' | spark)
-echo ": $usd $sp : $eur"
+echo " $usd/ $eur"

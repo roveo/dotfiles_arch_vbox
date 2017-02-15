@@ -167,8 +167,9 @@ bar {
 	mode dock
 	modifier $mod
     status_command i3blocks
+    tray_output none
 
-    separator_symbol "|"
+    separator_symbol " "
     colors {
         background #002b36
         focused_workspace  #002b36 #002b36 #ffffff
@@ -180,6 +181,8 @@ bar {
 }
 
 focus_follows_mouse no
+hide_edge_borders smart
+bindsym Print exec "escrotum -sC"
 
 exec --no-startup-id xcompmgr -c -n
 
