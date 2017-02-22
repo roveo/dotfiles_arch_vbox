@@ -1,0 +1,8 @@
+renamew main
+splitw -h 'nvim host/Dropbox/todo.txt'
+splitw -h
+select-layout even-horizontal
+selectp -t 1
+splitw 'ipython'
+splitw
+selectp -t 0
