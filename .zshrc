@@ -92,6 +92,9 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 source $ZSH/oh-my-zsh.sh
 source ~/.pass
 
