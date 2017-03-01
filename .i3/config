@@ -183,6 +183,7 @@ bar {
 focus_follows_mouse no
 hide_edge_borders smart
 bindsym Print exec "escrotum -sC"
+assign [class="datagrip"] $ws2
 
 exec --no-startup-id xcompmgr -c -n
 
