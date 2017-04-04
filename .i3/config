@@ -184,6 +184,10 @@ focus_follows_mouse no
 hide_edge_borders smart
 bindsym Print exec "escrotum -sC"
 assign [class="datagrip"] $ws2
+assign [class="wmail"] $ws3
+assign [class="slack"] $ws3
+assign [class="Telegram"] $ws3
+assign [class="^google-chrome"] $ws4
 
 exec --no-startup-id xcompmgr -c -n
 
