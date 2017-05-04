@@ -58,3 +58,4 @@ nmap <A-h> :bN<CR>
 autocmd FileType python nmap <F5> :!python3 %:p<CR>
 autocmd FileType python nmap <F6> :!python3 %:p
 
+autocmd CompleteDone * pclose!
